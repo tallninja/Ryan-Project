@@ -1,0 +1,21 @@
+###
+GET http://localhost:5000/users
+
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name": "Ryan Atera",
+    "idNo": 1234567,
+    "phoneNo": "0712345678",
+    "location": "Juja"
+}
+
+###
+POST http://localhost:5000/scan
+Content-Type: application/json
+
+{
+    "uId": "834f88a3"
+}
